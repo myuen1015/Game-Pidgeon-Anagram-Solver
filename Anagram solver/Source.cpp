@@ -51,7 +51,7 @@ int main()
 	cin >> word; 
 	for (int length = 3; length <= 6; length++) // prints words between 3 letters to 6 letters 
 	{
-		for (int i = 0; i <= word.size()-length; i++) // without the -length the loop would not work idk why :crying: i think cus if it doesn't it will break the subset 
+		for (int i = 0; i <= word.size()-length; i++) 
 		{
 			findwords(word.substr(i), length); 
 		}
